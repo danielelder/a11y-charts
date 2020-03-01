@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Accessible line chart</title>
+        <script src="../../vendor/d3.min.js"></script>
+        <script src="line-chart.js"></script>
+        <style>html { font-family: Arial; padding:50px }</style>
+    </head>
+    <body>
+        <h1>Accessible line chart example</h1>
+        <div class="container"></div>
+        <script>
+            var exampleData = {
+                "renderTo": ".container",
+                "title": "Line chart example",
+                "xAxis": {
+                    "title": "Years",
+                    "values": [2015, 2016, 2017, 2018, 2019]
+                },
+                "yAxis": {
+                    "title": "Amount",
+                    "values": [0, 50, 100, 150, 200]
+                },
+                "data": [
+                    {
+                        "title": "one",
+                        "values": [80, 120, 60, 150, 220]
+                    },
+                    {
+                        "title": "two",
+                        "values": [100, 130, 140, 170, 200]
+                    }
+                ]
+            };
+            var exampleData = {
+                "renderTo": '.container',
+                "title": "Bar chart example",
+                "xAxis": {
+                    "title": "Years",
+                    "values": [2015, 2016, 2017, 2018, 2019]
+                },
+                "yAxis": {
+                    "title": "Amount",
+                    "values": [0, 50, 100, 150, 200]
+                },
+                "data": [80, 120, 60, 150, 220]
+            };
+            lineChartInit(exampleData);
+        </script>
+    </body>
+</html>

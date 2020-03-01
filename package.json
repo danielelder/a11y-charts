@@ -1,0 +1,12 @@
+{
+  "name": "a11y-charts",
+  "description": "Examples of accessible D3 charts",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Daniel Elder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielelder/a11y-charts.git"
+  },
+  "keywords": ["a11y", "accessibility", "d3", "charts", "graphs"]
+}

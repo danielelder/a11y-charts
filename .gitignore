@@ -1,0 +1,15 @@
+# Git ignore, see http://help.github.com/ignore-files/
+
+# Dependencies
+node_modules
+
+# IDEs
+.vscode
+.idea
+.project
+.classpath
+
+# Misc
+npm-debug.log
+.DS_Store
+Thumbs.db
