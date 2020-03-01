@@ -1,8 +1,10 @@
 # a11y-charts
 
-> Examples of accessible D3 charts.
+Examples of accessible D3 charts.
 
-Build with version 5.10.0 of [D3.js](https://d3js.org/).
+![Screenshot of line chart example](./screenshot.png)
+
+Built with version 5.10.0 of [D3.js](https://d3js.org/).
 
 Tested on MacOS Catalina 10.15.3, Safari 13.0.5 using VoiceOver.
 
